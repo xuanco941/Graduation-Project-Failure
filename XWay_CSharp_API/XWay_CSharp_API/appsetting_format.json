@@ -1,0 +1,32 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "CorsPolicy": {
+    "AllowAnyHeader": true,
+    "AllowAnyMethod": true,
+    "AllowAnyOrigin": true
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=...;Initial Catalog=XWay_CSharp_API;User ID=sa;Password=...;Encrypt=True;TrustServerCertificate=True"
+  },
+  "Jwt": {
+    "SecretKey": "999999XuanXWay942k1",
+    "Issuer": "",
+    "Audience": "",
+    "ExpireDays": 30
+  },
+  "Role": {
+    "User": "User",
+    "Admin": "Admin",
+    "Guest" : "Guest"
+  },
+  "Email": {
+    "Address": "",
+    "Password": "" 
+  }
+}
